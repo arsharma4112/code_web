@@ -1,7 +1,21 @@
-1. create folder structure
-1.create root folder as code_web
-3.create src,public,views folder 
-4.create index.hbs,courses.hbs,reearch.hbs,404.hbs with heading IIITSurat in src
-5.run npm in code_web folder
+# website for cse department for iiit surat
+A Health care web application for booking appointments and ambulance in emergency using Google Maps Api
+
+## **What It Does**
+
+- it shows all information regarding cse department of iiit surat
 
 
+## **Technologies Used**
+
+
+- FrontEnd built with - 
+1. HTML
+2. CSS 
+3. JavaScript 
+4. bootstrap 
+
+- BackEnd built with -
+1. nodejs,
+2. express js
+3. handlebars(hbs)
