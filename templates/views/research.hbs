@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="stylesheet" href="css/index.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
+    integrity="sha512-PgQMlq+nqFLV4ylk1gwUOgm6CtIIXkKwaIHp/PAIWHzig/lKZSEGKEysh0TCVbHJXCLN7WetD8TFecIky75ZfQ=="
+    crossorigin="anonymous" />
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.1.0/css/v4-shims.min.css"
+    integrity="sha512-p++g4gkFY8DBqLItjIfuKJPFvTPqcg2FzOns2BNaltwoCOrXMqRIOqgWqWEvuqsj/3aVdgoEo2Y7X6SomTfUPA=="
+    crossorigin="anonymous" />
+  <!-- Popper JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@500&display=swap" rel="stylesheet">
+  <!-- Latest compiled JavaScript -->
+  <style>
+    * {
+      padding: 0px 0px;
+      margin: 0px 0px;
+    }
+
+    body {
+      background-color: rgb(195, 202, 181);
+      font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    }
+
+    .contents {
+      width: 75%;
+      border: 2px solid rgb(0, 0, 0);
+      display: block;
+      margin: auto;
+      border-radius: 10px;
+      background-color: wheat;
+    }
+
+    table {
+      padding: 1%;
+      background-color: white;
+      border-radius: 5px;
+    }
+
+    h1 {
+      display: block;
+      text-align: center;
+    }
+
+    .details {
+      padding-right: 3%;
+      padding-left: 3%;
+    }
+
+    .descriiption {
+      width: 70%;
+      /* border-radius: 5px; */
+    }
+
+    .teachers {
+      display: flex;
+      padding-left: 10%;
+      /* border-radius: 5px; */
+    }
+
+    tr {
+      display: flex;
+      padding-bottom: 40px;
+    }
+
+    .one {
+      background-color: rgb(178, 187, 159);
+      border-radius: 5px;
+    }
+
+    .two {
+      background-color: rgb(218, 240, 174);
+      border-radius: 5px;
+    }
+
+    #top {
+      padding-bottom: 1%;
+      text-align: center;
+    }
+  </style>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <link rel="shortcut icon" href="favicon.ico" type="image/png">
+  <title>IIIT Surat | research</title>
+</head>
+
+<body>
+
+  <div class="head">
+    <div class="description">
+      <img src="image/img1.jpg" alt="">
+      <div class="desc-child">
+        <h1 class="desc-child" style="font-family: 'Baloo Bhai 2', cursive;">Department of computer science engineering
+
+        </h1>
+
+        {{!-- <h7>Indian Institute of Information Technology,Surat</h7> --}}
+      </div>
+    </div>
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+      <div class="container-fluid">
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="/">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/courses">courses</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/research">research</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/project">project</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/faculty">faculty</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <br>
+    <div class="contents">
+      <h1>Research</h1>
+      <div class="details">
+        <table>
+          <tr class="one" id="top">
+            <td class="descriiption"><strong>Area of research</strong></td>
+            <td class="teachers">Faculty Involved</td>
+          </tr>
+          <tr class="two">
+            <td class="descriiption"><strong>Algorithms and Complexity Theory</strong><br>
+              Algorithmic graph theory, Computational geometry, Randomized algorithms, Approximation
+              algorithms, Complexity theory, Online algorithms.</td>
+            <td class="teachers">Dr. Reema Patel <br>Dr. Pradeep Kumar Roy<br>Ms. Shraddha Patel <br>Ms. Urvashi
+              Mistry<br>Ms. Mittal Patel <br>Ms. Jasmina Vanasiwala <br></td>
+          </tr>
+          <tr class="one">
+            <td class="descriiption"><strong>Artificial Intelligence (AI) and Machine Learning (ML)</strong><br>
+              Reinforcement learning and AI planning, Neuro-symbolic ML, Probabilistic graphical models,
+              Statistical relational learning, Extreme classification, Embodied artificial intelligence,
+              Ethical AI, Fairness and reliability in ML, Privacy issues in ML, ML for social networks, ML
+              applications to healthcare, AI for crowdsourcing, Knowledge-based AI, Computational advertising,
+              AI for robotics.</td>
+            <td class="teachers">Dr. Reema Patel <br>Dr. Pradeep Kumar Roy<br>Ms. Mittal Patel <br>Ms. Urvashi
+              Mistry<br></td>
+          </tr>
+          <tr class="two">
+            <td class="descriiption"><strong>Architecture and Embedded Systems</strong><br>
+              Hardware-software co-design, Embedded systems design, Reconfigurable computing, Fault-tolerant
+              computing, Hardware implementations, Temperature-aware architectures, Energy-efficient
+              architectures, Design-for-debug, Cache memory, 3D and non-volatile memory, Architectural
+              extensions for mobile security, Architectures for machine learning, Architectures for computer
+              vision, Secure architectures.</td>
+            <td class="teachers">Ms. Shraddha Patel<br>Ms. Jasmina Vanasiwala<br>Ms. Mittal Patel <br>Ms.
+              Urvashi Mistry<br></td>
+          </tr>
+          <tr class="one">
+            <td class="descriiption"><strong>Databases and Data Analytics</strong><br>
+              Intention mining, Policy driven databases, Information retrieval, Information dissemination in
+              social networks, Semantic web data management, Opinion mining, Indexing and querying in graph
+              databases, Spatio-temporal data analytics, Data wrangling.</td>
+            <td class="teachers">Dr. Pradeep Kumar Roy<br>Ms. Shraddha Patel<br>Ms. Mittal Patel <br>Ms. Urvashi
+              Mistry<br></td>
+          </tr>
+          <tr class="two">
+            <td class="descriiption"><strong>Operating Systems, High Performance Computing and Systems
+                Software</strong><br>
+              Compiler design, mobile operating systems and device drivers, Operating systems for IoT systems
+            </td>
+            <td class="teachers">Dr. Reema Patel <br>Dr. Pradeep Kumar Roy<br>Ms. Shraddha Patel<br>Ms. Urvashi
+              Mistry<br>Ms.
+              Jasmina Vanasiwala<br></td>
+          </tr>
+          <tr class="one">
+            <td class="descriiption"><strong>Programming Languages, Semantics and Verification</strong><br>
+              Programming language semantics, Theory and practice of concurrent systems, Process algebras,
+              Distributed computing, Program analysis and verification, Logic in computer science,
+              Applications of verification in network models, multiprocessors, and relaxed memory models.
+            </td>
+            <td class="teachers">Dr. Reema Patel <br>Dr. Pradeep Kumar Roy<br>Ms. Mittal Patel <br>Ms. Shraddha
+              Patel<br>Ms. Urvashi
+              Mistry<br>Ms.
+              Jasmina Vanasiwala<br></td>
+          </tr>
+        </table>
+      </div>
+    </div>
+    <br>
+    <footer class="site-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 col-md-6">
+            <h3> Indian Institute Of Information Technology </h3>
+            <p class="text-justify"> SVNIT Campus
+
+              Ichchanath, Surat - 395007
+              <br>
+              Phone : 0261-2204322(O)
+              <br>
+              Email : cseoffice.iiitsurat@gmail.com
+            </p>
+          </div>
+
+
+          <div class="col-xs-6 col-md-3">
+            <h6>Quick Links</h6>
+            <ul class="footer-links">
+              <li><a href="http://iiitsurat.ac.in/about-us.html">About Us</a></li>
+              <li><a href="http://iiitsurat.ac.in/contact-us.html">Contact Us</a></li>
+              <li><a href="http://iiitsurat.ac.in/Career.html">Career</a></li>
+
+            </ul>
+          </div>
+        </div>
+        <hr>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 col-sm-6 col-xs-12">
+            <p class="copyright-text">Copyright &copy; 2017 All Rights Reserved by
+              <a href="#">IIIT Surat</a>.
+            </p>
+          </div>
+
+          <div class="col-md-4 col-sm-6 col-xs-12">
+            <ul class="social-icons">
+              <li><a class="facebook"
+                  href="http://www.facebook.com/iiitsuratofficial/?__xts__[0]=68.ARD76EssWpz-cpCuXG8r9rUeP4WNMp6EBLsrNDWhnPq63F3TOq5Smv9LWD8rkLI3RtmAihBmBPIImvtYnsptMoIuih8sjp3JZ3sI3WDETtiH3KzxdhZCkuQtJt9_Qp2CzlZW7nv-t856"><i
+                    class="fa fa-facebook"></i></a></li>
+              <li><a class="twitter" href="http://twitter.com/IIITSurat"><i class="fa fa-twitter"></i></a></li>
+              <li><a class="linkedin" href="https://www.linkedin.com/school/iiitsurat/"><i
+                    class="fa fa-linkedin"></i></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+</body>
+
+</html>
