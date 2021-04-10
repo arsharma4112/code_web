@@ -1,7 +1,7 @@
-# website for cse department for iiit surat
+# website for cse department for IIIT surat
 A Health care web application for booking appointments and ambulance in emergency using Google Maps Api
 
-## **What It Does**
+## **What it Does**
 
 - it shows all information regarding cse department of iiit surat
 
