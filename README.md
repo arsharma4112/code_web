@@ -1,13 +1,10 @@
 # website for cse department for IIIT surat
-A Health care web application for booking appointments and ambulance in emergency using Google Maps Api
+A website of CSE department, IIIT surat
 
 ## **What it Does**
-
 - it shows all information regarding cse department of iiit surat
 
-
 ## **Technologies Used**
-
 
 - FrontEnd built with - 
 1. HTML
